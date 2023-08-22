@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+  <div class="calc">
+ <header>
+    <h2 id="calc">calc</h2>
+    <div class="theme" id="theme">
+      <span class="num num1" onclick="theme1()">1</span>
+      <span class="num" onclick="theme2()">2</span>
+      <span class="num" onclick="theme3()">3</span>
+      <div class="flex">
+        <div class="theme-span" id="theme-span"> theme</div>
+        <div class="move" id="move">
+          <div class="slider" id="slider"></div>
+        </div>
+      </div>
+    </div>
+ </header>
+ <div class="ans" id="ans">
+
+ </div>
+
+ <main id="main">
+  <div id="seven" class="btn num">7</div>
+  <div id="eight" class="btn num">8</div>
+  <div id="nine" class="btn num">9</div>
+  <div id="del" class="btn">DEL</div>
+  <div id="four" class="btn num">4</div>
+  <div id="five" class="btn num">5</div>
+  <div id="six" class="btn num">6</div>
+  <div id="add" class="btn op"> + </div>
+  <div id="one" class="btn num">1</div>
+  <div id="two" class="btn num">2</div>
+  <div id="three" class="btn num">3</div>
+  <div id="sub" class="btn op"> - </div>
+  <div id="dot" class="btn">.</div>
+  <div id="zero" class="btn num">0</div>
+  <div id="div" class="btn op">/</div>
+  <div id="mul" class="btn op">x</div>
+  <div id="reset" class="btn">RESET</div>
+  <div id="equal" class="btn op"> = </div>
+  
+ </main>
+</div>
+<script src="app.js"></script>
+<script src="calcmain.js"></script>
+</body>
+</html>
